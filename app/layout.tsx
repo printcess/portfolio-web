@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Mitr } from "next/font/google";
+import { IBM_Plex_Sans_Thai } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
-const mitr = Mitr({
-  weight: ["200", "300", "400", "500", "600", "700"],
+const ibmPlexSansThai = IBM_Plex_Sans_Thai({
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
   subsets: ["latin", "thai"],
-  variable: "--font-mitr",
+  variable: "--font-ibm-plex-sans-thai",
   display: "swap",
 });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${mitr.variable} antialiased`}>
+      <body className={`${ibmPlexSansThai.variable} antialiased`}>
         <Navbar />
         {children}
       </body>
