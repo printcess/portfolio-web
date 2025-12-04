@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Sans_Thai } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const ibmPlexSansThai = IBM_Plex_Sans_Thai({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${ibmPlexSansThai.variable} antialiased`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
