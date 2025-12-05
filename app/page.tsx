@@ -70,7 +70,7 @@ export default function Home() {
              <div className="flex flex-col md:flex-row gap-8 w-full">
                 {/* Skill Box */}
                 <div className="w-full md:w-1/2 bg-slate-900/80 rounded-lg p-8 flex flex-col">
-                    <h2 className="text-3xl text-white mb-8 text-center">Skill eiei</h2>
+                    <h2 className="text-3xl text-white mb-8 text-center">Skill</h2>
                     <div className="flex flex-col gap-4">
                         <div className="w-20 h-20 bg-gray-100 rounded-lg"></div>
                         <div className="w-20 h-20 bg-gray-100 rounded-lg"></div>
