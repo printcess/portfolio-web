@@ -10,10 +10,10 @@ export default function Home() {
         style={{ backgroundImage: "url('/image/bg2.jpg')" }}
       >
         {/* ชั้น overlay ถ้าต้องการลบก็ลบได้ */}
-        <div className="absolute inset-0 bg-white/70"></div>
+        <div className="absolute inset-0 bg-white/70 fixed"></div>
 
         {/* เนื้อหา */}
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
+        <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12 min-h-screen">
           {/* ฝั่งซ้าย: รูป */}
           <div className="w-full md:w-1/2">
             <img
@@ -64,6 +64,28 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Section 2: Skills & Interests */}
+        <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 min-h-screen flex flex-col justify-center">
+             <div className="flex flex-col md:flex-row gap-8 w-full">
+                {/* Skill Box */}
+                <div className="w-full md:w-1/2 bg-slate-900/80 rounded-lg p-8 flex flex-col">
+                    <h2 className="text-3xl text-white mb-8 text-center">Skill</h2>
+                    <div className="flex flex-col gap-4">
+                        <div className="w-20 h-20 bg-gray-100 rounded-lg"></div>
+                        <div className="w-20 h-20 bg-gray-100 rounded-lg"></div>
+                        <div className="w-20 h-20 bg-gray-100 rounded-lg"></div>
+                    </div>
+                </div>
+
+                {/* Interesting Box */}
+                <div className="w-full md:w-1/2 bg-gray-300/80 rounded-lg p-8 flex flex-col items-center">
+                     <h2 className="text-3xl text-black mb-8">Interesting</h2>
+                     <div className="w-full h-full"></div>
+                </div>
+             </div>
+        </div>
+        <Footer />
       </main>
     </>
   );
