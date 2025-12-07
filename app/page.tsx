@@ -17,9 +17,9 @@ export default function Home() {
           {/* ฝั่งซ้าย: รูป */}
           <div className="w-full md:w-1/2">
             <img
-              src="/image/cat.jpg"
+              src="/image/print.jpg"
               alt="cat"
-              className="w-full h-auto rounded-xl shadow-lg object-cover"
+              className="w-80 h-auto rounded-xl shadow-lg object-cover"
             />
           </div>
 
@@ -70,18 +70,41 @@ export default function Home() {
              <div className="flex flex-col md:flex-row gap-8 w-full">
                 {/* Skill Box */}
                 <div className="w-full md:w-1/2 bg-slate-900/80 rounded-lg p-8 flex flex-col">
-                    <h2 className="text-3xl text-white mb-8 text-center">Skill</h2>
-                    <div className="flex flex-col gap-4">
-                        <div className="w-20 h-20 bg-gray-100 rounded-lg"></div>
-                        <div className="w-20 h-20 bg-gray-100 rounded-lg"></div>
-                        <div className="w-20 h-20 bg-gray-100 rounded-lg"></div>
+                  <h2 className="text-3xl text-white mb-8 text-center font-medium">
+                      Programming Language
+                  </h2>
+
+                  <div className="flex flex-col gap-4">
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      C, C++
                     </div>
-                </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Python
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      TypeScript
+                    </div>
+                  </div>
+              </div>
 
                 {/* Interesting Box */}
-                <div className="w-full md:w-1/2 bg-gray-300/80 rounded-lg p-8 flex flex-col items-center">
-                     <h2 className="text-3xl text-black mb-8">Interesting</h2>
-                     <div className="w-full h-full"></div>
+                <div className="w-full md:w-1/2 bg-slate-300/80 rounded-lg p-8 flex flex-col">
+                     <h2 className="text-3xl text-black mb-8 font-medium text-center">Interesting</h2>
+                     <div className="flex flex-col gap-4">
+                    <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
+                      Frontend Developer
+                    </div>
+                    <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
+                      Business Analyst
+                    </div>
+                    <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
+                      Quality Assurance
+                    </div>
+                    <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
+                      Project Manager
+                    </div>
+
+                     </div>
                 </div>
              </div>
         </div>
