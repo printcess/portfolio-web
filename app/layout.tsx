@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ibmPlexSansThai.variable} antialiased`}>
+      <body className={`${ibmPlexSansThai.variable} antialiased pb-32`}>
         <Navbar />
         {children}
         <Footer />

@@ -87,6 +87,30 @@ export default function Home() {
                   </div>
               </div>
 
+              <div className="w-full md:w-1/2 bg-slate-700/80 rounded-lg p-8 flex flex-col">
+                  <h2 className="text-3xl text-white mb-8 text-center font-medium">
+                      Tools
+                  </h2>
+
+                  <div className="flex flex-col gap-4">
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Nextjs
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Git
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Jira
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Figma
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Docker
+                    </div>
+                  </div>
+              </div>
+
                 {/* Interesting Box */}
                 <div className="w-full md:w-1/2 bg-slate-300/80 rounded-lg p-8 flex flex-col">
                      <h2 className="text-3xl text-black mb-8 font-medium text-center">Interesting</h2>
@@ -103,8 +127,9 @@ export default function Home() {
                     <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
                       Project Manager
                     </div>
-
                      </div>
+
+                    
                 </div>
              </div>
         </div>

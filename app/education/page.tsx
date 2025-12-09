@@ -54,7 +54,7 @@ export default function Education() {
 
             {/* กล่องคำอธิบายด้านล่าง */}
             <div className="h-[35%] w-full bg-white/10 rounded-lg p-6 backdrop-blur">
-                <h2 className="text-3xl text-white mb-2 text-center font-medium">Tertiary</h2>
+                <h2 className="text-3xl text-white mb-2 text-center font-medium">University</h2>
                 <p className="text-xl text-gray-200 text-center">
                     Chulalongkorn University,
                 </p>
