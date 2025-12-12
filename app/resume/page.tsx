@@ -8,7 +8,7 @@ export default function FigmaPage() {
       <Navbar />
       <div className="w-full h-full flex flex-col items-center">
         <div className="w-[80%] flex-1 min-h-[80vh]">
-            <img src="/image/wanut.png" className="w-full h-full object-contain" alt="Figma Design" />
+            <img src="/image/wanut.png" className="w-full h-full object-contain" />
         </div>
       </div>
       <Footer />
