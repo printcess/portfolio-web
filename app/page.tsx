@@ -84,6 +84,9 @@ export default function Home() {
                     <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
                       TypeScript
                     </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      JavaScript
+                    </div>
                   </div>
               </div>
 
@@ -97,6 +100,9 @@ export default function Home() {
                       Nextjs
                     </div>
                     <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Nestjs
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
                       Git
                     </div>
                     <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
@@ -107,6 +113,18 @@ export default function Home() {
                     </div>
                     <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
                       Docker
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      MongoDB
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      PostgreSQL
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Antigravity
+                    </div>
+                    <div className="bg-white/10 p-4 rounded-lg text-white text-lg backdrop-blur">
+                      Arduino
                     </div>
                   </div>
               </div>
@@ -119,6 +137,12 @@ export default function Home() {
                       Frontend Developer
                     </div>
                     <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
+                      Backend Developer
+                    </div>
+                    <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
+                      Fullstack Developer
+                    </div>
+                    <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
                       Business Analyst
                     </div>
                     <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
@@ -127,6 +151,8 @@ export default function Home() {
                     <div className="bg-slate-800/10 p-4 rounded-lg text-black text-lg backdrop-blur">
                       Project Manager
                     </div>
+              
+                    
                      </div>
 
                     
